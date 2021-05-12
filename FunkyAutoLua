@@ -25,10 +25,10 @@ do
     Variables.NoteAccuracy = {}
 
     Variables.Constants.DISTANCE_TO_ACCURACY = {
-        ["Sick"] = 0.00,
-        ["Good"] = 0.00,
-        ["Ok"] = 0.01,
-        ["Bad"] = 0.01
+        ["Sick"] = 0.02,
+        ["Good"] = 0.02,
+        ["Ok"] = 0.02,
+        ["Bad"] = 0.02
     }
 
     Variables.Constants.ACCURACY_NAMES = {
