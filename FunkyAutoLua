@@ -74,20 +74,20 @@ do
         else
             wait(0.03 + ReleaseDelay)
         end
-
-        Variables.KeyFunctions.KeyUp(Direction)
-
+	
         Variables.Pressed[Arrow] = nil
         Variables.NoteAccuracy[Arrow] = nil
+	
     end
 
     function Autoplayer:IsPressed(Arrow)
         return Variables.Pressed[Arrow]
+	
     end
         
     function Autoplayer:GetHitAccuracy()
         local Percentages = shared.Settings.Percentages
-        local Total = 0 
+        local Total = 1 
         
         local ChanceData = {} 
         local ACCURACY_NAMES = Variables.Constants.ACCURACY_NAMES
